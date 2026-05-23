@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /home/dimitris/claude-gitleaks-demo/secret-guard /home/dimitris/claude-gitleaks-demo/.claude/hooks/pretooluse-secret-guard.py)",
+      "Bash(gitleaks version *)",
+      "Bash(gitleaks stdin *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(gitleaks --help)",
+      "Bash(gitleaks detect *)"
+    ]
+  }
+}

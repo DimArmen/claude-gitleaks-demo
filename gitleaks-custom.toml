@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "connection-string-credentials"
+description = "Database/broker connection string with inline credentials"
+regex = '''(?i)(?:postgres(?:ql)?|mysql|mongodb(?:\+srv)?|redis|amqp|mssql)://[\w.-]+:([^@\s:/]{6,})@'''
+keywords = ["postgres", "mysql", "mongodb", "redis", "amqp", "mssql"]
