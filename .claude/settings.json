@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/home/dimitris/claude-gitleaks-demo/.claude/hooks/pretooluse-secret-guard.py"
+            "command": ".claude/hooks/pretooluse-secret-guard.py"
           }
         ]
       }
